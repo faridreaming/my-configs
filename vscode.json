@@ -1,0 +1,95 @@
+{
+  "window.commandCenter": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.sideBar.location": "right",
+  "explorer.confirmPasteNative": false,
+  "git.autofetch": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "editor.fontFamily": "'FiraCode Nerd Font Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "explorer.decorations.badges": false,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.detectIndentation": true,
+  "editor.lineHeight": 2,
+  "prettier.printWidth": 120,
+  "editor.stickyScroll.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": -1,
+  "vscode-pets.petSize": "large",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bladeFormatter.format.indentSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.lineNumbers": "on",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "/usr/bin/fish"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "cursor.composer.textSizeScale": 1.3,
+  "explorer.confirmDelete": false,
+  "cursor.cpp.disabledLanguages": ["markdown", "plaintext"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 16,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.tabSize": 2,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true
+}
